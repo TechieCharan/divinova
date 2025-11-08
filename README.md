@@ -77,3 +77,22 @@ flutter build web --release
 ## Next steps (optional)
 
 - If you want, I can scaffold the project here (create the Flutter project files) in the repo. Note: builds still require Flutter installed locally or in CI.
+
+<!-- to check emulators and start android -->
+
+- flutter devices
+- fluttter emulators
+- flutter emulators --launch <emulatorId>
+
+
+<!-- to run the program  -->
+
+- flutter run -d <device_id>
+# or if only one device connected:
+- flutter run
+
+<!-- to run in chrome parallely -->
+- flutter run -d chrome
+
+<!-- to check emulators running -->
+emulator -list-avds
